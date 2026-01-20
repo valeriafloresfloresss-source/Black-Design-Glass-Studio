@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mariposas - Black Design Glass Studio</title>
+    <link rel="stylesheet" href="../css/Productos.css">
+</head>
+<body>
+
+```
+<header>
+<div class="logo-container">
+    <a href="index.html" class="logo">
+      <img src="../multimedia/logo bdgs.png" alt="Logo Black Design" class="logo">
+      </a>
+      <h1>Black Design Glass Studio</h1>
+      
+    </div>
+</header>
+
+<main class="producto-container">
+
+    <!-- Imagen principal -->
+    <div class="producto-imagen-principal">
+        <img src="../multimedia/mariposas.jpg" id="mainImage" alt="Producto 1">
+    </div>
+
+    <!-- Información del producto -->
+    <div class="producto-info">
+        <h1>Mariposas</h1>
+        <p>
+            Mariposas fusionadas en vidrio acuarela
+        </p>
+
+        <ul class="especificaciones">
+            <li><strong>Material:</strong> Vidrio y pigmentos especiales</li>
+            <li><strong>Acabado:</strong> Brillantes, diferentes tonos </li>
+            <li><strong>Ancho:</strong> 25 cm</li>
+            <li><strong>Alto:</strong> 12 cm</li>
+         
+        </ul>
+
+        <a href="../html/productos.html" class="btn-volver">← Volver a Productos</a>
+    </div>
+
+</main>
+
+<!-- Galería de imágenes secundarias -->
+<section class="galeria">
+    <img src="../multimedia/Mariposas detalles 1.jpeg" class="thumb" onclick="cambiarImagen(this)">
+    <img src="../multimedia/Mariposas detalles 2.jpeg" class="thumb" onclick="cambiarImagen(this)">
+    <img src="../multimedia/Mariposas detalles 3.jpeg" class="thumb" onclick="cambiarImagen(this)">
+    <img src="../multimedia/Mariposas detalles 4.jpeg" class="thumb" onclick="cambiarImagen(this)">
+    <img src="../multimedia/mariposas.jpg" class="thumb" onclick="cambiarImagen(this)">
+</section>
+
+<script>
+    function cambiarImagen(element){
+        document.getElementById("mainImage").src = element.src;
+    }
+</script>
+```
+
+</body>
+</html>

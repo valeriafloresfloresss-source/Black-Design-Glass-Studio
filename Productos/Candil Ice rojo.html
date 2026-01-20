@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Set de ánemonas de colores - Black Design Glass Studio</title>
+    <link rel="stylesheet" href="../css/Productos.css">
+</head>
+<body>
+
+```
+<header>
+<div class="logo-container">
+    <a href="index.html" class="logo">
+      <img src=" alt="Logo Black Design" class="logo">
+      </a>
+      <h1>Black Design Glass Studio</h1>
+      
+    </div>
+</header>
+
+<main class="producto-container">
+
+    <!-- Imagen principal -->
+    <div class="producto-imagen-principal">
+        <img src="../multimedia/Candil rojo.jpeg" id="mainImage" alt="Producto 1">
+    </div>
+
+    <!-- Información del producto -->
+    <div class="producto-info">
+        <h1>Candil rectangulos tonos fuego</h1>
+        <p>
+          Candil de 1 metro de caida con rectangulos de vidrio spectrum de diferentes medidas en tonos naranja, rojo, transparente y amarillo con placa de acero inoxidable pintada en electroestatica negra con 8 focos enpotrados de luz led calida dimeables y soporte interno de acero para sujeción del candil.
+        </p>
+
+        <ul class="especificaciones">
+            <li><strong>Material:</strong> Vidrio spectrum</li>
+            <li><strong>Acabado:</strong> Brillante </li>
+            <li><strong>Tipo de caida:</strong> En diamante </li>
+            <li><strong>Diametro de la base:</strong> 1 m</li>
+            <li><strong>Caida:</strong> 1 m</li>
+         
+        </ul>
+
+        <a href="../html/productos.html" class="btn-volver">← Volver a Productos</a>
+    </div>
+
+</main>
+
+<!-- Galería de imágenes secundarias -->
+<section class="galeria">
+    <img src="../multimedia/Mariposas detalles 1.jpeg" class="thumb" onclick="cambiarImagen(this)">
+    <img src="../multimedia/Mariposas detalles 2.jpeg" class="thumb" onclick="cambiarImagen(this)">
+    <img src="../multimedia/Mariposas detalles 3.jpeg" class="thumb" onclick="cambiarImagen(this)">
+    <img src="../multimedia/Mariposas detalles 4.jpeg" class="thumb" onclick="cambiarImagen(this)">
+    <img src="../multimedia/mariposas.jpg" class="thumb" onclick="cambiarImagen(this)">
+</section>
+
+<script>
+    function cambiarImagen(element){
+        document.getElementById("mainImage").src = element.src;
+    }
+</script>
+
+```
+
+</body>
+</html>

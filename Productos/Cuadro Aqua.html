@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Set de ánemonas de colores - Black Design Glass Studio</title>
+    <link rel="stylesheet" href="../css/Productos.css">
+</head>
+<body>
+
+```
+<header>
+<div class="logo-container">
+    <a href="index.html" class="logo">
+      <img src="../multimedia/logo bdgs.png" alt="Logo Black Design" class="logo">
+      </a>
+      <h1>Black Design Glass Studio</h1>
+      
+    </div>
+</header>
+
+<main class="producto-container">
+
+    <!-- Imagen principal -->
+    <div class="producto-imagen-principal">
+        <img src="../multimedia/Cuadro azul.jpg" id="mainImage" alt="Producto 1">
+    </div>
+
+    <!-- Información del producto -->
+    <div class="producto-info">
+        <h1>Cuadro Aqua</h1>
+        <p>
+           Cuadro rectangulos acuarela 
+        </p>
+
+        <ul class="especificaciones">
+            <li><strong>Material:</strong> Vidrio acuarela</li>
+            <li><strong>Acabado:</strong> Brilante en tonos azul y blanco</li>
+            <li><strong>Ancho:</strong> 1 m</li>
+            <li><strong>Alto:</strong> 0.80 m</li>
+         
+        </ul>
+
+        <a href="../html/productos.html" class="btn-volver">← Volver a Productos</a>
+    </div>
+
+</main>
+
+<!-- Galería de imágenes secundarias -->
+<section class="galeria">
+    <img src="../multimedia/cuadro azul d1.jpg" class="thumb" onclick="cambiarImagen(this)">
+    <img src="../multimedia/cuadro azul d2.jpg" class="thumb" onclick="cambiarImagen(this)">
+    <img src="../multimedia/cuadro azul d3.jpg" class="thumb" onclick="cambiarImagen(this)">
+    <img src="../multimedia/cuadro azul d4.jpg" class="thumb" onclick="cambiarImagen(this)">
+    <img src="../multimedia/Cuadro azul.jpg" class="thumb" onclick="cambiarImagen(this)">
+</section>
+
+<script>
+    function cambiarImagen(element){
+        document.getElementById("mainImage").src = element.src;
+    }
+</script>
+```
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Rombos vitri-noire - Black Design Glass Studio</title>
+    <link rel="stylesheet" href="../css/Productos.css">
+</head>
+<body>
+
+```
+<header>
+<div class="logo-container">
+    <a href="index.html" class="logo">
+      <img src="../multimedia/logo bdgs.png" alt="Logo Black Design" class="logo">
+      </a>
+      <h1>Black Design Glass Studio</h1>
+      
+    </div>
+</header>
+
+<main class="producto-container">
+
+    <!-- Imagen principal -->
+    <div class="producto-imagen-principal">
+        <img src="../multimedia/Rombos.jpeg" id="mainImage" alt="Producto 1">
+    </div>
+
+    <!-- Información del producto -->
+    <div class="producto-info">
+        <h1>Rombos Vitri-Noire</h1>
+        <p>
+           Rombos fusionados en vidrio acuarela
+        </p>
+
+        <ul class="especificaciones">
+            <li><strong>Material:</strong> Vidrio y pigmentos especiales</li>
+            <li><strong>Acabado:</strong> Brillantes; negro, dorado y blanco </li>
+            <li><strong>Ancho:</strong> 1.80 m</li>
+            <li><strong>Alto:</strong> 0.50 m</li>
+         
+        </ul>
+
+        <a href="../html/productos.html" class="btn-volver">← Volver a Productos</a>
+    </div>
+
+</main>
+
+<!-- Galería de imágenes secundarias -->
+<section class="galeria">
+    <img src="../multimedia/rombos detalles 1.jpg" class="thumb" onclick="cambiarImagen(this)">
+    <img src="../multimedia/rombos detalles 2.jpg" class="thumb" onclick="cambiarImagen(this)">
+    <img src="../multimedia/rombos detalles 3 .jpg" class="thumb" onclick="cambiarImagen(this)">
+    <img src="../multimedia/rombos detalles 4 .jpg" class="thumb" onclick="cambiarImagen(this)">
+    <img src="../multimedia/Rombos.jpeg" class="thumb" onclick="cambiarImagen(this)">
+</section>
+
+<script>
+    function cambiarImagen(element){
+        document.getElementById("mainImage").src = element.src;
+    }
+</script>
+```
+
+</body>
+</html>
+
