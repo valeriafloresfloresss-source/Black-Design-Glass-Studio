@@ -83,6 +83,16 @@ nav a.active::after {
     object-fit: cover;
     z-index: -1;
 }
+.hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;     /* ESTA ES LA MAGIA */
+  object-position: center;
+  z-index: -1;
+}
 
 
 .hero::after {
@@ -348,6 +358,7 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
